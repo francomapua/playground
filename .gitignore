@@ -43,4 +43,4 @@ Temporary Items
 .apdisk
 
 # Node Modules
-./NodeJS/node_modules/*
+./NodeJS/node_modules/**
