@@ -24,6 +24,8 @@ var callbackFunction = function(err, res){
 /*
     Promises
 */
+// TODO: Resource
+// https://developer.ibm.com/node/2016/08/24/promises-in-node-js-an-alternative-to-callbacks/
 var message = "";
 var promise1 = new Promise((resolve, reject) => {
     setTimeout(() => {
