@@ -1,0 +1,91 @@
+
+<button id="btnDownload" onclick ="download()">
+Download the Funky Sheet
+</button>
+<div id="progress" >
+  <div id="progress-overlay"></div>
+  <canvas id="progress-canvas" width="400" height="30"></canvas>
+</div>
+
+<a href="a.apk" type="application/vnd.android.package-archive">Straight up download</a>
+<style>
+  #progress {
+    border: 1px solid #adadad;
+    border-radius: 2px;
+  }
+  #progress, #progress-overlay, #progress-canvas {
+    width: 400px;
+    height: 30px;
+  }
+  /* http://jsfiddle.net/jhogervorst/X78qN/2/ */
+  #progress-overlay {
+    position: absolute;
+    background-image: -webkit-linear-gradient(
+      top,
+      rgba(255, 255, 255, .8) 0%,
+      rgba(255, 255, 255, .4) 50%,
+      rgba(255, 255, 255, 0) 50%,
+      rgba(255, 255, 255, .2) 100%
+    );
+  }
+</style>
+<script>
+  
+  var canvas = document.getElementById('progress-canvas');
+  var width = canvas.width;
+  var height = canvas.height;
+  var chunks = 1;
+  var ctx = canvas.getContext('2d');
+  //var fileAddress = 'http://10.30.12.106:3000/a.apk';
+  var fileAddress = 'http://10.30.12.106:3000/50MB.zip';
+  //var fileAddress = 'http://ipv4.download.thinkbroadband.com/50MB.zip';
+  new Promise(resolve => {
+    var xhr = new XMLHttpRequest();
+    xhr.withCredentials = true;
+    xhr.open('GET', fileAddress);
+    xhr.onreadystatechange = () => {
+      resolve(+xhr.getResponseHeader('Content-Length'));
+      xhr.abort();
+    };
+    xhr.send();
+  }).then(size => {
+    Promise.all(new Array(chunks).fill().map((_, i) => {
+      return new Promise(resolve => {
+        var xhr = new XMLHttpRequest();
+        xhr.withCredentials = true;
+        xhr.onreadystatechange = () => {
+          if (xhr.readyState !== 4) {
+            return;
+          }
+          window.URL = window.URL || window.webkitURL;
+          resolve(xhr.response);
+        };
+        xhr.onprogress = function (evt) {
+          if (evt.lengthComputable) {
+            var x = (evt.loaded / evt.total) * (width / chunks);
+            ctx.fillStyle = '#c41201'; // #0193CD #66D4E5 #5CB85C
+            ctx.fillRect(((width / chunks) * i), 0, x, height);
+            ctx.textContent = (width / chunks);
+          }
+        };
+        xhr.open('GET', fileAddress);
+        xhr.responseType = 'blob';
+        var chunkSize = Math.floor(size / chunks);
+        var start = i * chunkSize;
+        var end = i === chunks - 1 ? size - 1 : ((i + 1) * chunkSize - 1);
+        // https://stackoverflow.com/questions/15561508
+        xhr.setRequestHeader('Range', `bytes=${start}-${end}`); // the bytes (incl.) you request
+        xhr.send(null);
+      });
+    })).then(function (result) {
+      // http://jsfiddle.net/kGLnP/5/
+      var anchor = document.createElement('a');
+      anchor.href = URL.createObjectURL(new Blob(result));
+      anchor.download = 'b.apk';
+      anchor.textContent = 'Your download is completed, click here!';
+      //anchor.click();
+      document.body.appendChild(anchor);
+    });
+  });
+
+</script>
