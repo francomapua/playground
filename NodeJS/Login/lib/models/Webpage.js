@@ -3,11 +3,10 @@ const swig = require("swig");
 
 function Webpage(filePath){
     this.filePath = filePath;
-    this.htmlTemplate = fs.readFileSync(filePath, 'utf-8');
 }
 
 Webpage.prototype.loadHTML = function(object){
-    var template = swig.compile(this.htmlTemplate);
+    var template = swig.compile(fs.readFileSync(filePath, 'utf-8'));
     return template(object);
 }
 
