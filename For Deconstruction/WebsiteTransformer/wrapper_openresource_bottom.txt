@@ -1,0 +1,10 @@
+</main>
+
+  </section>
+  <p aria-live="assertive" aria-atomic="true" class="dcg-mq-aria-alert"></p>
+  <div aria-live="assertive" aria-atomic="true" class="dcg-aria-alert"></div>
+
+<script src="../res/content.js"></script>
+</body>
+
+</html>

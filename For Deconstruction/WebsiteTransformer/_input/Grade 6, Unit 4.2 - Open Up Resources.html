@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8" http-equiv="Content-Type">
+<link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<title>Grade 6, Unit 4.2 - Open Up Resources</title>
+
+
+
+<meta content="Open Up Resources and Illustrative Mathematics" name="author">
+<!--[if IE]>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="/assets/html5shiv.js"></script>
+<![endif]-->
+<link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Poppins:400,700,600%7COpen+Sans:400,300,400italic,700,700italic">
+<link rel="stylesheet" media="screen" href="/assets/desmos_style.css">
+<link rel="stylesheet" href="/assets/content.css">
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    skipStartupTypeset:     false,
+    showProcessingMessages: false,
+    showMathMenu:           false,
+    menuSettings:           {
+      inTabOrder:             false,
+    },
+    messageStyle:           'none',
+    undefinedCharError: false,
+    displayErrors: false,
+    displayMessages: false,
+    NativeMML: {
+      scale: 100
+    },
+    "HTML-CSS": {
+      scale: 110,
+      preferredFont: 'STIX-Web',
+      matchFontHeight: false,
+      availableFonts: ['TeX', 'STIX-Web'],
+      webFont: 'STIX-Web',
+      imageFont: null
+    },
+    SVG: {
+      scale: 110,
+      font: 'STIX-Web',
+      blacker: 0,
+      undefinedFamily: 'STIXGeneral, "Times New Roman", serif'
+    },
+    jax: [
+      'input/TeX',
+      'output/HTML-CSS'
+    ],
+    extensions: [
+      "tex2jax.js"
+    ],
+    tex2jax: {
+      inlineMath: [
+      ['$', '$'],
+        ['\\(', '\\)']
+      ],
+      displayMath: [
+        ['$$', '$$'],
+        ['\\[', '\\]']
+      ],
+      processEscapes: true
+    },
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js"
+      ],
+      Macros: {
+        boldcdot: [
+          '\\mathbin{\\raise -.1em\\Large\\cdot}'
+        ],
+        boxvoid: [
+          '\\vcenter{{\\Large\\Box_{\\!\\!}}}'
+        ]
+      }
+    }
+  });
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js" type="text/javascript"></script>
+
+
+<script src="https://www.desmos.com/api/v0.9/calculator.js?apiKey=18b53d7e43764b3ab139532a28108a45"></script>
+
+<script src="/assets/google_analytics.js"></script>
+</head>
+
+<body class="teachers no-js nojs unit-lesson unit-4 two-col">
+<a class="is--invisible is--focusable" href="#main">
+Skip to Content
+</a>
+
+<div id="top"></div>
+<section>
+<link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Roboto:400,500">
+<link rel="stylesheet" media="screen" href="/assets/nav_global.css">
+<header class="c-nav-global">
+<div class="c-nav-global__wrapper">
+<a class=".c-nav-global__logolink" title="Open Up Resources Home" href="http://openupresources.org"><img class="c-nav-global__logoimg" alt="Open Up Resources Logo" src="/assets/our-logo.svg">
+</a><a class="c-nav-global__menu" aria-hidden="true" href="#open-up-resources-menu-1">Menu</a>
+<nav class="c-nav-global__nav" id="open-up-resources-menu-1">
+<a class="c-nav-global__menu" href="#">Close</a>
+<ul class="c-nav-global__list">
+<li class="c-nav-global__listitem">
+<a class="c-nav-global__link" target="_blank" href="http://openupresources.org">OUR Curriculum</a>
+</li>
+<li class="c-nav-global__listitem">
+<a class="c-nav-global__link" target="_blank" href="http://openupresources.org/illustrative-mathematics-professional-development">Professional Development</a>
+</li>
+<li class="c-nav-global__listitem">
+<a class="c-nav-global__link" target="_blank" href="http://openupresources.org/illustrative-mathematics-implementation-support">Implementation Support</a>
+</li>
+<li class="c-nav-global__listitem">
+<a class="c-nav-global__link" target="_blank" href="http://openupresources.org/about-us/">About Us</a>
+</li>
+<li class="c-nav-global__listitem">
+<a class="c-nav-global__link" target="_blank" href="http://openupresources.org/contact-us/">Contact</a>
+</li>
+<li class="c-nav-global__listitem">
+<a class="c-nav-global__link c-nav-global__link--logout" href="https://auth.openupresources.org/logout/">Log Out</a>
+</li>
+
+</ul>
+</nav>
+</div>
+</header>
+
+
+<header class="math-header" role="banner">
+<div class="course-nav-container">
+<div class="branding-wrapper">
+<a class="curriculum-index" href="/index.html">
+<img alt="Open Up Resources" src="/assets/our-logo-alt.svg">
+</a>
+<a class="course-title" href="/6/teachers/index.html"><span class="grade">Grade 6</span><span class="subject">Math</span>
+</a>
+</div>
+<nav class="course-nav" role="navigation">
+<div class="course-nav-section unit-code-section">
+<a href="/6/teachers/index.html">Units</a>
+</div>
+<div class="course-nav-section course-units-menu-section">
+<span class="course-units-menu-label">Unit</span>
+<ul class="course-units-menu">
+<li class="course-units-menu-item">
+<a aria-label="Unit 1" class="unit-color-1 course-units-menu-item-link" href="/6/teachers/1.html">
+<span class="course-units-menu-item-title">1</span>
+</a>
+</li>
+<li class="course-units-menu-item">
+<a aria-label="Unit 2" class="unit-color-2 course-units-menu-item-link" href="/6/teachers/2.html">
+<span class="course-units-menu-item-title">2</span>
+</a>
+</li>
+<li class="course-units-menu-item">
+<a aria-label="Unit 3" class="unit-color-3 course-units-menu-item-link" href="/6/teachers/3.html">
+<span class="course-units-menu-item-title">3</span>
+</a>
+</li>
+<li class="course-units-menu-item is--active">
+<a aria-label="Unit 4" class="unit-color-4 course-units-menu-item-link" href="/6/teachers/4.html">
+<span class="course-units-menu-item-title">4</span>
+</a>
+</li>
+<li class="course-units-menu-item">
+<a aria-label="Unit 5" class="unit-color-5 course-units-menu-item-link" href="/6/teachers/5.html">
+<span class="course-units-menu-item-title">5</span>
+</a>
+</li>
+<li class="course-units-menu-item">
+<a aria-label="Unit 6" class="unit-color-6 course-units-menu-item-link" href="/6/teachers/6.html">
+<span class="course-units-menu-item-title">6</span>
+</a>
+</li>
+<li class="course-units-menu-item">
+<a aria-label="Unit 7" class="unit-color-7 course-units-menu-item-link" href="/6/teachers/7.html">
+<span class="course-units-menu-item-title">7</span>
+</a>
+</li>
+<li class="course-units-menu-item">
+<a aria-label="Unit 8" class="unit-color-8 course-units-menu-item-link" href="/6/teachers/8.html">
+<span class="course-units-menu-item-title">8</span>
+</a>
+</li>
+<li class="course-units-menu-item">
+<a aria-label="Unit 9" class="unit-color-9 course-units-menu-item-link" href="/6/teachers/9.html">
+<span class="course-units-menu-item-title">9</span>
+</a>
+</li>
+</ul>
+</div>
+<div class="course-pages-section">
+<div class="course-nav-section">
+<a class="course-pages-link " href="/6/teachers/teacher_course_guide.html">Course Guide</a>
+</div>
+<div class="course-nav-section course-download-links-section">
+<span class="course-download-links-label">Access as:</span><ul class="course-download-links">
+<li>
+<a href="/6/teachers/print_materials.html">Print</a>
+</li>
+<li>
+<a href="/6/teachers/lms_materials.html">LMS</a>
+</li>
+<li>
+<a href="/6/teachers/onenote_materials.html">OneNote</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+<nav class="unit-color-4 unit-nav" role="navigation">
+<ul class="unit-nav-menu">
+<li class="unit-nav-menu-item unit-color-4">
+<a class="unit-nav-menu-item-link" href="/6/teachers/4.html">Overview</a>
+</li>
+<li class="unit-nav-menu-item has-dropdown unit-color-4">
+<a class="unit-nav-menu-item-link is--active" href="#"><span class="unit-lessons-menu-title">Lessons</span><span class="caret"></span>
+</a>
+<ul class="unit-lessons-menu unit-color-4">
+<li class="unit-lessons-menu-item unit-color-4">
+<a class="unit-lessons-menu-item-link" href="/6/teachers/4/1.html">1 Size of Divisor and Size of Quotient</a>
+</li>
+<li class="unit-lessons-menu-item unit-color-4">
+<a class="unit-lessons-menu-item-link" href="/6/teachers/4/2.html">2 Meanings of Division</a>
+</li>
+<li class="unit-lessons-menu-item unit-color-4">
+<a class="unit-lessons-menu-item-link" href="/6/teachers/4/3.html">3 Interpreting Division Situations </a>
+</li>
+<li class="unit-lessons-menu-item unit-color-4">
+<a class="unit-lessons-menu-item-link" href="/6/teachers/4/4.html">4 How Many Groups? (Part 1)</a>
+</li>
+<li class="unit-lessons-menu-item unit-color-4">
+<a class="unit-lessons-menu-item-link" href="/6/teachers/4/5.html">5 How Many Groups? (Part 2)</a>
+</li>
+<li class="unit-lessons-menu-item unit-color-4">
+<a class="unit-lessons-menu-item-link" href="/6/teachers/4/6.html">6 Using Diagrams to Find the Number of Groups</a>
+</li>
+<li class="unit-lessons-menu-item unit-color-4">
+<a class="unit-lessons-menu-item-link" href="/6/teachers/4/7.html">7 What Fraction of a Group?</a>
+</li>
+<li class="unit-lessons-menu-item unit-color-4">
+<a class="unit-lessons-menu-item-link" href="/6/teachers/4/8.html">8 How Much in Each Group? (Part 1)</a>
+</li>
+<li class="unit-lessons-menu-item unit-color-4">
+<a class="unit-lessons-menu-item-link" href="/6/teachers/4/9.html">9 How Much in Each Group? (Part 2)</a>
+</li>
+<li class="unit-lessons-menu-item unit-color-4">
+<a class="unit-lessons-menu-item-link" href="/6/teachers/4/10.html">10 Dividing by Unit and Non-Unit Fractions</a>
+</li>
+<li class="unit-lessons-menu-item unit-color-4">
+<a class="unit-lessons-menu-item-link" href="/6/teachers/4/11.html">11 Using an Algorithm to Divide Fractions</a>
+</li>
+<li class="unit-lessons-menu-item unit-color-4">
+<a class="unit-lessons-menu-item-link" href="/6/teachers/4/12.html">12 Fractional Lengths</a>
+</li>
+<li class="unit-lessons-menu-item unit-color-4">
+<a class="unit-lessons-menu-item-link" href="/6/teachers/4/13.html">13 Rectangles with Fractional Side Lengths</a>
+</li>
+<li class="unit-lessons-menu-item unit-color-4">
+<a class="unit-lessons-menu-item-link" href="/6/teachers/4/14.html">14 Fractional Lengths in Triangles and Prisms</a>
+</li>
+<li class="unit-lessons-menu-item unit-color-4">
+<a class="unit-lessons-menu-item-link" href="/6/teachers/4/15.html">15 Volume of Prisms</a>
+</li>
+<li class="unit-lessons-menu-item unit-color-4">
+<a class="unit-lessons-menu-item-link" href="/6/teachers/4/16.html">16 Solving Problems Involving Fractions</a>
+</li>
+<li class="unit-lessons-menu-item unit-color-4">
+<a class="unit-lessons-menu-item-link" href="/6/teachers/4/17.html">17 Fitting Boxes into Boxes</a>
+</li>
+</ul>
+</li>
+<li class="unit-nav-menu-item unit-color-4">
+<a class="unit-nav-menu-item-link" href="/6/teachers/4/assessments/unit_assessments.html">Assessments</a>
+</li>
+<li class="unit-nav-menu-item unit-color-4">
+<a class="unit-nav-menu-item-link" href="/6/teachers/4/practice_problems.html">Practice Problems</a>
+</li>
+<li class="unit-nav-menu-item unit-color-4">
+<a class="unit-nav-menu-item-link" href="/6/teachers/4/downloads.html">Unit Downloads</a>
+</li>
+<li class="unit-nav-menu-item unit-color-4">
+<a class="unit-nav-menu-item-link" href="/6/teachers/4/family_materials.html">Family Materials</a>
+</li>
+</ul>
+</nav>
+
+</header>
+
+<main class="container" id="main">
+<article>
+<section class="navigation-sidebar">
+<nav data-offset-bottom="200" data-offset-top="0" data-spy="affix" data-toggle="toc" id="toc">
+<h1 class="sidebar-title" data-toc-skip="">
+4.2 Lesson Plan
+</h1>
+</nav>
+
+</section>
+<section class="main-content" id="lesson_plan_2">
+<h2 class="overview-title" data-toc-text="LESSON 2">
+LESSON 2
+</h2>
+<div class="overview-subtitle">Meanings of Division</div>
+
+<table class="green-table full-table">
+<tr>
+<th>
+<p>Learning goals</p>
+</th>
+<td>
+<ul>
+<li>Explain how multiplication and division are related. Write corresponding multiplication equations given a division expression or equation.</li>
+<li>See that a division expression can be interpreted in two ways—as representing a “how many groups?” question, or a “how many in each group?" question.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>
+<p>Learning goals</p>
+<p>(Student Facing)</p>
+</th>
+<td>
+<p>
+</p>
+<p>Let’s explore ways to think about division.</p>
+
+
+</td>
+</tr>
+<tr>
+<th>
+<p>Learning targets</p>
+<p>(Student Facing)</p>
+</th>
+<td>
+<ul>
+<li>
+When given a division equation, I can write a multiplication equation that represents the same situation.
+</li>
+<li>
+I can explain two ways of interpreting a division expression such as $27 \div 3$.
+</li>
+<li>
+I can explain how multiplication and division are related. 
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>
+<p>
+Print-Formatted Word Documents
+</p>
+</th>
+<td>
+<ul class="downloads-list">
+<li>
+<a target="_blank" href="/6/teachers/materials/4/2/6-4-2-teacher_condensed_lesson_plan.docx">Condensed Lesson Plan</a>
+</li>
+<li>
+<a target="_blank" href="/6/teachers/materials/4/2/6-4-2-teacher_presentation.docx">Teacher Presentation</a>
+</li>
+<li>
+<a target="_blank" href="/6/teachers/materials/4/2/6-4-2-student_task_statements.docx">Student Task Statements</a>
+</li>
+<li>
+<a target="_blank" href="/6/teachers/materials/4/2/6-4-2-practice_problems.docx">Practice Problems</a>
+</li>
+<li>
+<a target="_blank" href="/6/teachers/materials/4/2/6-4-2-student_cool_down.docx">Cool-Down</a>
+</li>
+</ul>
+
+</td>
+</tr>
+<tr>
+<th>
+<p>
+Print-Formatted PDFs
+</p>
+</th>
+<td>
+<ul class="downloads-list">
+<li>
+<a target="_blank" href="/6/teachers/materials/4/2/6-4-2-teacher_condensed_lesson_plan.pdf">Condensed Lesson Plan</a>
+</li>
+<li>
+<a target="_blank" href="/6/teachers/materials/4/2/6-4-2-teacher_presentation.pdf">Teacher Presentation</a>
+</li>
+<li>
+<a target="_blank" href="/6/teachers/materials/4/2/6-4-2-student_task_statements.pdf">Student Task Statements</a>
+</li>
+<li>
+<a target="_blank" href="/6/teachers/materials/4/2/6-4-2-practice_problems.pdf">Practice Problems</a>
+</li>
+<li>
+<a target="_blank" href="/6/teachers/materials/4/2/6-4-2-student_cool_down.pdf">Cool-Down</a>
+</li>
+</ul>
+
+</td>
+</tr>
+</table>
+
+<p class="content-section" id="lesson_plan_2_narrative">
+</p>
+<p>In this lesson, students revisit the relationship between multiplication and division that they learned in prior grades. Specifically, students recall that we can think of multiplication as expressing the number of equal-size groups, and that we can find a product if we know the<em> </em>number of groups and the<em> </em>size of each group. They interpret division as a way of finding a missing factor, which can either be the number of groups, or the size of one group. They do so in the context of concrete situations and by using diagrams and equations to support their reasoning.</p>
+
+<p>As they represent division situations with diagrams and equations and interpret division equations in context, students reason quantitatively and abstractly (MP2).</p>
+
+
+<table class="green-table full-table equal-width" id="lesson_plan_2_standards-differentiation">
+<tr>
+<th>
+<p>
+CCSS Standards: Building on
+</p>
+</th>
+<td>
+<ul class="resource-list">
+<li class="table-resource-title">
+<a class="no-target" href="" title="Click for more info">
+3.OA.A.2
+</a>
+<div class="resource-info">
+<h4 class="resource-title">3.OA.A.2</h4>
+Interpret whole-number quotients of whole numbers, e.g., interpret $56 \div 8$ as the number of objects in each share when 56 objects are partitioned equally into 8 shares, or as a number of shares when 56 objects are partitioned into equal shares of 8 objects each. <span class="clarification">For example, describe a context in which a number of shares or a number of groups can be expressed as $56 \div 8$.</span>
+</div>
+
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>
+<p>
+CCSS Standards: Building towards
+</p>
+</th>
+<td>
+<ul class="resource-list">
+<li class="table-resource-title">
+<a class="no-target" href="" title="Click for more info">
+6.NS.A
+</a>
+<div class="resource-info">
+<h4 class="resource-title">6.NS.A</h4>
+Apply and extend previous understandings of multiplication and division to divide fractions by fractions.
+</div>
+
+</li>
+</ul>
+</td>
+</tr>
+
+</table>
+
+<h2 class="lesson-title" data-toc-text="2.1: (WARM-UP) A Division Expression" id="activity-1">
+WARM-UP: 5 minutes
+</h2>
+<div class="lesson-subtitle">2.1: A Division Expression</div>
+<table class="green-table full-table equal-width">
+<tr>
+<th>
+<p>Instructional Routines</p>
+</th>
+<td>
+<ul class="resource-list">
+<li class="table-resource-title">
+<a class="no-target" href="" title="Click for more info">
+Think Pair Share
+</a>
+<div class="resource-info">
+<h4 class="resource-title">Think Pair Share</h4>
+<p>What: Students have quiet time to think about a problem and work on it individually, and then time to share their response or their progress with a partner. Once these partner conversations have taken place, some partnerships are selected to share their thoughts with the class.</p>
+
+<p>Where: Classroom activities</p>
+
+<p>Why: This is a teaching routine useful in many contexts whose purpose is to give all students enough time to think about a prompt and form a response before they are expected to try to verbalize their thinking. First they have an opportunity to share their thinking in a low-stakes way with one partner, so that when they share with the class they can feel calm and confident, as well as say something meaningful that might advance everyone’s understanding. Additionally, the teacher has an opportunity to eavesdrop on the partner conversations so that she can purposefully select students to share with the class.</p>
+
+</div>
+
+</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<th>
+<p>
+CCSS Standards: Building on
+</p>
+</th>
+<td>
+<ul class="resource-list">
+<li class="table-resource-title">
+<a class="no-target" href="" title="Click for more info">
+3.OA.A.2
+</a>
+<div class="resource-info">
+<h4 class="resource-title">3.OA.A.2</h4>
+Interpret whole-number quotients of whole numbers, e.g., interpret $56 \div 8$ as the number of objects in each share when 56 objects are partitioned equally into 8 shares, or as a number of shares when 56 objects are partitioned into equal shares of 8 objects each. <span class="clarification">For example, describe a context in which a number of shares or a number of groups can be expressed as $56 \div 8$.</span>
+</div>
+
+</li>
+</ul>
+</td>
+</tr>
+
+</table>
+
+<div class="content-section-header gray-text"></div>
+<div class="content-section" id="classroom_activity_1_activity-long-narrative">
+<p>The purpose of this warm-up is to review students' prior understanding of division and elicit the ways in which they interpret a division expression. This review prepares them to explore the meanings of division in the lesson. </p>
+
+<p>Some students may simply write the value of the expression because they struggle to put into words how they think about the problem. Encourage them to think of a story with a question, in which the expression could be used to answer the question.</p>
+
+</div>
+<div class="content-section-header gray-text">Launch</div>
+<div class="content-section" id="classroom_activity_1_activity-long-launch">
+<p>Arrange students in groups of 2. Ask students to write a list of all of the ways they think about $20\div 4$. Explain that they can write what the expression means to them, how they think about it when evaluating the expression, or a situation that matches the expression. </p>
+
+<p>Give students 1 minute of quiet think time, followed by 1 minute of partner discussion. During discussion, ask students to share their responses and notice what they have in common. </p>
+
+<div>
+<div class="swd-annotation" dir="ltr">
+<em>Memory: Processing Time. </em>Provide sticky notes or mini whiteboards to aid students with working memory challenges.</div>
+</div>
+
+</div>
+<div class="content-section-header gray-text">Student-Facing Task Statement</div>
+<div class="content-section">
+<p>Here is an expression: $20\div 4$.</p>
+
+<p class="whitespace-small">What are some ways to think about this expression? Describe at least two meanings you think it could have.</p>
+
+</div>
+
+<div class="content-section-header gray-text">Student Response</div>
+<div class="content-section">
+<p>Answers vary. Possible responses:</p>
+
+<ul>
+	<li>How many groups of 4 are in 20?</li>
+	<li>How many are in each group if we split 20 into 4 groups?</li>
+	<li>How many 4’s are in 20?</li>
+	<li>What times 4 equals 20?</li>
+	<li>What is the other side length of a rectangle with a side length of 4 and an area of 20?</li>
+	<li>What is $\frac14$ of 20?</li>
+	<li>What is $\frac{20}{4}$?</li>
+</ul>
+
+</div>
+
+<div class="content-section-header gray-text">Activity Synthesis</div>
+<div class="content-section">
+<p>Invite partners to share the interpretations of $20 \div 4$ that they had in common. Record and display these responses for all to see. Ask students to notice any themes or trends in the range of responses.</p>
+
+<p>Highlight the two ways students will be thinking about division in this unit:</p>
+
+<ul>
+	<li>Division means partitioning a number or a quantity into equal groups and finding out <em>how many groups can be made</em>.  </li>
+	<li>Division means partitioning a number or a quantity into equal groups, and finding out <em>how much is in each group</em>.</li>
+</ul>
+
+</div>
+
+
+<h2 class="lesson-title" data-toc-text="2.2: Bags of Almonds" id="activity-2">
+ACTIVITY: 25 minutes
+</h2>
+<div class="lesson-subtitle" id="classroom_activity_2_activity-subtitle">
+2.2: Bags of Almonds
+</div>
+<table class="green-table full-table equal-width">
+<tr>
+<th>
+<p>Instructional Routines</p>
+</th>
+<td>
+<ul class="resource-list">
+<li class="table-resource-title">
+<a class="no-target" href="" title="Click for more info">
+MLR8: Discussion Supports
+</a>
+<div class="resource-info">
+<h4 class="resource-title">MLR8: Discussion Supports</h4>
+To support rich discussions about mathematical ideas, representations, contexts, and strategies. The examples provided can be combined and used together with any of the other routines. They include multi-modal strategies for helping students comprehend complex language and ideas, and can be used to make classroom communication accessible, to foster meta-awareness of language, and to demonstrate strategies students can use to enhance their own communication and construction of ideas.
+</div>
+
+</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<th>
+<p>
+CCSS Standards: Building on
+</p>
+</th>
+<td>
+<ul class="resource-list">
+<li class="table-resource-title">
+<a class="no-target" href="" title="Click for more info">
+3.OA.A.2
+</a>
+<div class="resource-info">
+<h4 class="resource-title">3.OA.A.2</h4>
+Interpret whole-number quotients of whole numbers, e.g., interpret $56 \div 8$ as the number of objects in each share when 56 objects are partitioned equally into 8 shares, or as a number of shares when 56 objects are partitioned into equal shares of 8 objects each. <span class="clarification">For example, describe a context in which a number of shares or a number of groups can be expressed as $56 \div 8$.</span>
+</div>
+
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>
+<p>
+CCSS Standards: Building towards
+</p>
+</th>
+<td>
+<ul class="resource-list">
+<li class="table-resource-title">
+<a class="no-target" href="" title="Click for more info">
+6.NS.A
+</a>
+<div class="resource-info">
+<h4 class="resource-title">6.NS.A</h4>
+Apply and extend previous understandings of multiplication and division to divide fractions by fractions.
+</div>
+
+</li>
+</ul>
+</td>
+</tr>
+
+</table>
+
+<div class="content-section-header gray-text"></div>
+<div class="content-section" id="classroom_activity_2_activity-long-narrative">
+<p>This activity prompts students to explore two ways of thinking about division by connecting it to multiplication, thinking about what it means in the context of a situation, and drawing visual representations.</p>
+
+<ul>
+</ul>
+
+</div>
+<div class="content-section-header gray-text">Launch</div>
+<div class="content-section" id="classroom_activity_2_activity-long-launch">
+<p>Keep students in groups of 2. Ask students to keep their materials closed. Display the following question for all to see:</p>
+
+<p style="margin-left: 40px;">A baker has 12 pounds of almonds. She puts them in bags, so that each bag has the same weight.  In terms of pounds and bags of almonds, what could $12 \div 6$ mean?</p>
+
+<ol>
+</ol>
+
+<p>Give students a minute of quiet think time and 1–2 minutes to explain their thinking to their partner. Ask a few students who interpreted the expression differently to share their interpretations. If students do not bring up one of the two ways to interpret the 6, ask them about it: Could the 6 represent the number of bags (or the amount in each bag)?</p>
+
+<p>Once students see that the divisor could be interpreted in two ways, ask students to open the materials and give students 4–5 minutes to complete the first question.</p>
+
+<p>Reconvene as a class afterwards. Select a couple of students to explain Clare and Tyler's diagrams and equations. Highlight that, in this context, $12 \div 6$ could mean 12 pounds of almonds being divided equally into 6 bags, or 12 pounds of almonds being divided so that each bag has 6 pounds. </p>
+
+<p>Give students quiet time to complete the rest of the activity.</p>
+
+<div class="ell-annotation">
+<i>Lighter Support: </i><em>MLR 8 (Discussion Supports).</em> Use student responses from the division expression in #1 to revoice student ways of thinking using mathematical language. Use a Think-Aloud to explain that you are using words to describe in two different ways what is happening in a mathematical expression and that they will also be doing this. </div>
+
+<div class="swd-annotation">
+<p dir="ltr"><em>Receptive/Expressive Language: Processing Time.</em> Students who benefit from extra processing time would also be aided by MLR 8.</p>
+
+<p><em>Conceptual Processing: Manipulatives.</em> Begin with realia (i.e., real almonds), which will provide access for students who benefit from concrete contexts.</p>
+</div>
+
+</div>
+<div class="content-section-header gray-text">Student-Facing Task Statement</div>
+<div class="content-section">
+<p>A baker has 12 pounds of almonds. She puts them in bags, so that each bag has the same weight.</p>
+
+<ol>
+	<li>Clare and Tyler drew diagrams and wrote equations to show how they were thinking about $12 \div 6$.
+	<div class="uploaded-image"><img alt="“”" src="https://cms-k12oer-staging.s3.amazonaws.com/uploads/pictures/6/6.4.A2.Image.01.png"></div>
+
+	<p class="whitespace-small">How do you think Clare and Tyler thought about $12 \div 6$? Explain what each diagram and each part of each equation (especially the missing number) might mean in the context of the bags of almonds.</p>
+
+	<div class="page-break-after">Pause here for a class discussion.</div>
+	</li>
+	<li>
+	<p>Explain what each division expression could mean in the context of the bags of almonds. Then draw a diagram and write a multiplication equation to show how you are thinking about the expression.</p>
+
+	<ol>
+		<li class="whitespace-small">$12 \div 4$</li>
+		<li class="whitespace-small">$12 \div 2$</li>
+		<li class="whitespace-small">$12 \div \frac12$</li>
+	</ol>
+	</li>
+</ol>
+
+</div>
+
+<div class="content-section-header gray-text">Student Response</div>
+<div class="content-section">
+<ol>
+	<li>Clare might have seen 6 as the number of pounds in a bag. The missing factor is then how many bags the baker would have. Tyler might have seen 6 as the number of bags. The missing factor would then mean how many pounds of almonds are in each bag.</li>
+	<li>Diagrams and interpretations vary.
+	<ul>
+		<li>$12 \div 4$ could mean, "How many pounds in 1 bag if there were 12 pounds in 4 bags?" ($4 \boldcdot \text{___} = 12$) or "How many bags can we get if we put 4 pounds in each bag?" ($\text{___} \boldcdot 4 = 12$).</li>
+		<li>$12 \div 2$ could mean, "How many pounds in 1 bag if there were 12 pounds in 2 bags?" ($2 \boldcdot  \text{___} = 12$) or "How many bags can we get if we put 2 pounds in each bag?" ($\text{___} \boldcdot 2 = 12$).</li>
+		<li>$12 \div \frac12$ could mean, "How many pounds in 1 bag if there were 12 pounds in $\frac12$ bag?" ($\frac12 \boldcdot \text{___} = 12$) or "How many bags can we get if we put $\frac12$ pound in each bag?" ($\text{___} \boldcdot \frac12 = 12$).</li>
+	</ul>
+	</li>
+</ol>
+
+</div>
+
+<div class="content-section-header gray-text">"Are you ready for more?"</div>
+<div class="content-section">
+<p>A loaf of bread is cut into slices.</p>
+
+<ol>
+	<li>If each slice is $\frac12$ of a loaf, how many slices are there?</li>
+	<li>If each slice is $\frac15$ of a loaf, how many slices are there?</li>
+	<li>What happens to the number of slices as each slice gets smaller? </li>
+	<li class="page-break-after">Interpret the meaning of dividing by 0 in the context of slicing bread.</li>
+</ol>
+
+</div>
+
+<div class="content-section-header gray-text">"Are you ready for more?" Student Response</div>
+<div class="content-section">
+<ol>
+	<li>2</li>
+	<li>5</li>
+	<li>The number of slices grows as the slices get smaller. This process is limited by how small the bread can get physically.</li>
+	<li>Dividing the bread into slices of length 0, which doesn’t make sense.</li>
+</ol>
+
+</div>
+
+<div class="content-section-header gray-text">Activity Synthesis</div>
+<div class="content-section">
+<p>Select a few students to share their diagrams and equations for the problems in the last question. After each explanation, highlight the connections between the expression, the diagram, and the context. Make sure students understand that the division expression $12 \div 6$ can be interpreted as the answer to the question “6 times what number equals 12?” or the question, “What number times 6 equals 12?" (or "How many 6s are in 12?"). More generally, division can be interpreted as a way to find two values: </p>
+
+<ul>
+	<li>The size of each group when we know the number of groups and a total amount</li>
+	<li>How many groups are in a total amount given the size of one group</li>
+</ul>
+
+<p>Note that students may write either $\text{___} \boldcdot 6 = 12$ or $6 \boldcdot  \text{___} = 12$ for each interpretation as long as they understand what each factor represents. Because we tend to say “___ groups of ___” in these materials, we follow that order in writing the multiplication: $$\text{(number of groups)} \boldcdot \text{(size of each group)} = \text{total amount}$$</p>
+
+<p>When discussing $12 \div 2$, make explicit how its multiplication equations and diagram connect to those of $12 \div 6$ in the first question. Students may see that the diagrams for $2 \boldcdot  \text{___} = 12$ and $\text{___} \boldcdot 6 = 12$ are partitioned the same way. Point out that:</p>
+
+<ul>
+	<li>In $2 \boldcdot  \text{___} = 12$, the size of each group (each bag) was unknown, but because there are 2 equal groups in 12, we concluded that there were 6 pounds in each group.</li>
+	<li>In $\text{___} \boldcdot 6 = 12$, we know each group (each bag) has 6 pounds of almonds, so there must be 2 groups of 6 in12 pounds.</li>
+</ul>
+
+<p>This discussion will be helpful in upcoming work, as students use their understanding of representations of division to divide fractions.</p>
+
+</div>
+
+
+<h2 class="lesson-title" data-toc-text="Lesson Synthesis">Lesson Synthesis</h2>
+<div class="content-section">
+<p>In this lesson, we explored the relationship between multiplication and division in order to understand the meanings of division. We know that multiplication can represent the number of equal-size groups. For instance, $3 \boldcdot 5 = 15$ can mean 3 groups of 5 make 15. Let's review how we can use the same idea of equal-size groups to think about division.</p>
+
+<ul>
+	<li>
+	<p>"How can we interpret $20 \div 8$?" (We can think of it as "how many groups of 8 are in 20?" or "how much is in each group if there are 20 in 8 groups?)</p>
+	</li>
+	<li>
+	<p>"Suppose we interpret it as 'how many groups of 8 are in 20?'. How might we draw a diagram to show this?" (A bar that represents 20 divided into equal parts of 8.) "What multiplication equation can we write?" (${?} \boldcdot 8 = 20$ or $8 \boldcdot {?} = 20$, as long as we are clear what each factor represents.)</p>
+	</li>
+	<li>
+	<p>"If we think of it as 'how much is in each group if there are 20 in 8 groups?', how would the diagram be different?" (A bar that represents 20 divided into 8 equal parts.) "What multiplication equation can we write?" ($8 \boldcdot {?} = 20$ or ${?} \boldcdot 8 = 20$, as long as we know what each factor represents.)</p>
+	</li>
+</ul>
+
+</div>
+<h2 class="lesson-title" data-toc-text="2.3: (COOL-DOWN) Groups on A Field Trip" id="activity-3">
+COOL-DOWN: 5 minutes
+</h2>
+<div class="lesson-subtitle">2.3: Groups on A Field Trip</div>
+<table class="green-table full-table equal-width">
+<tr>
+<th>
+<p>
+CCSS Standards: Building towards
+</p>
+</th>
+<td>
+<ul class="resource-list">
+<li class="table-resource-title">
+<a class="no-target" href="" title="Click for more info">
+6.NS.A
+</a>
+<div class="resource-info">
+<h4 class="resource-title">6.NS.A</h4>
+Apply and extend previous understandings of multiplication and division to divide fractions by fractions.
+</div>
+
+</li>
+</ul>
+</td>
+</tr>
+
+</table>
+
+<div class="content-section-header gray-text"></div>
+<div class="content-section" id="classroom_activity_3_activity-long-narrative">
+
+</div>
+<div class="content-section-header gray-text">Student-Facing Task Statement</div>
+<div class="content-section">
+<ol>
+	<li>
+	<p>During a field trip, 60 students are put into equal-sized groups.</p>
+
+	<ol>
+		<li class="whitespace-medium">Describe two ways to interpret $60 \div 5$ in this context. </li>
+		<li>Find the quotient. 
+		<p> </p>
+		</li>
+		<li class="whitespace-small">Explain what the quotient would mean in each of the two interpretations you described.</li>
+	</ol>
+	</li>
+	<li>
+	<p>Consider the division expression $7\frac12 \div 2$. Select <strong>all</strong> multiplication equations that correspond to this division expression.</p>
+
+	<ol start="1" style="list-style-type: upper-alpha;">
+		<li>$2 \boldcdot {?} = 7\frac12$</li>
+		<li>$7\frac12 \boldcdot {?}= 2$</li>
+		<li>$2 \boldcdot 7\frac12 = {?}$</li>
+		<li>${?} \boldcdot 7\frac12 = 2$</li>
+		<li>${?} \boldcdot 2 = 7\frac12$</li>
+	</ol>
+	</li>
+</ol>
+
+</div>
+
+<div class="content-section-header gray-text">Student Response</div>
+<div class="content-section">
+<ol>
+	<li>
+	<ol>
+		<li>$60 \div 5$ could represent, "How many students are in each group if there are 5 groups?" (or "How many groups can be formed if there are 5 students per group?")</li>
+		<li>$60 \div 5=12$</li>
+		<li>The quotient could mean there are 12 students in each of the 5 groups (or there are 12 groups with 5 students in each group).</li>
+	</ol>
+	</li>
+	<li>A ($2 \boldcdot {?} = 7\frac12$) and E (${?} \boldcdot 2 = 7\frac12$)</li>
+</ol>
+
+</div>
+
+
+
+
+
+<footer class="lesson-footer">
+<nav class="lesson-footer-links-nav" role="">
+<a class="lesson-prev" href="/6/teachers/4/1.html">Lesson 1</a>
+<a class="backtotop" href="#top">back to top</a>
+<a class="lesson-next" href="/6/teachers/4/3.html">Lesson 3</a>
+</nav>
+</footer>
+
+</section>
+</article>
+</main>
+
+</section>
+<footer class="global-footer">
+<div class="global-footer-container">
+<div class="global-footer-links">
+<a class="global-footer-logo" href="http://openupresources.org">
+<img alt="Open Up Resources Footer Logo" class="logo-img" src="/assets/our-logo-footer.svg">
+</a>
+<nav class="global-footer-nav">
+<a class="global-footer-link" href="http://openupresources.org/frequently-asked-questions" target="_blank">
+FAQs
+</a>
+<a class="global-footer-link" href="http://openupresources.org/partnerships" target="_blank">
+Partnerships
+</a>
+<a class="global-footer-link" href="http://openupresources.org/careers" target="_blank">
+Careers
+</a>
+<a class="global-footer-link" href="http://openupresources.org/press-inquiries" target="_blank">
+Press
+</a>
+</nav>
+<div class="global-footer-social-media">
+<a class="global-footer-social-link" href="https://twitter.com/openupresources" target="_blank">
+<img alt="Twitter icon" class="social-media-icon" src="/assets/icon-twitter.svg">
+</a>
+<a class="global-footer-social-link" href="https://www.facebook.com/openupresources" target="_blank">
+<img alt="Facebook icon" class="social-media-icon" src="/assets/icon-facebook.svg">
+</a>
+<a class="global-footer-social-link" href="https://www.linkedin.com/company/open-up-resources" target="_blank">
+<img alt="LinkedIn icon" class="social-media-icon" src="/assets/icon-linkedin.svg">
+</a>
+</div>
+</div>
+<div class="global-footer-info">
+<p class="global-footer-copyright">
+Materials developed by Open Up Resources are published as Open Educational Resources under Creative Commons license CC BY.
+<a class="global-footer-copyright-link" href="http://openupresources.org/oer-and-creative-commons-licenses/">Learn More</a>
+</p>
+</div>
+</div>
+</footer>
+
+<script src="/assets/content.js"></script>
+<script src="/assets/mathjax_typeset.js"></script>
+<script src="/assets/desmos_render.js"></script>
+<script src="/GeoGebra/5.0.389.0/deployggb.js"></script>
+<script src="/assets/geogebra_embed.js"></script>
+
+</body>
+
+</html>

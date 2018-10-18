@@ -34,3 +34,27 @@ var flash = new HuntingDog("bassette hound");
 flash.doBark();
 flash.howl();
 
+// ES6 Implmenetation
+class Animal {
+
+    constructor(name = 'anonymous', legs = 4, noise = 'nothing') {
+
+        this.type = 'animal';
+        this.name = name;
+        this.legs = legs;
+        this.noise = noise;
+
+    }
+
+    speak() {
+        console.log(`${this.name} says "${this.noise}"`);
+    }
+
+    walk() {
+        console.log(`${this.name} walks on ${this.legs} legs`);
+    }
+
+}
+
+var boar = new Animal();
+boar.speak();

@@ -6,11 +6,7 @@ var Network = {
     httpGetRequest : function(url){
         let data = '';
 
-        https.get(url, (resp) => {
-            resp.on('data', (chunk) =>{
-
-            })
-        });
+        
     },
     httpDownloadFiles : function(url){
         // TODO: Resource 

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="js customer-migo is_responsive canvas history cssanimations backgroundsize boxshadow boxsizing csscalc csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside generatedcontent cssgradients rgba supports csstransforms3d csstransitions no-ios" itemscope="" itemtype="http://schema.org/Organization" lang="en" manifest="" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml" style="">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>LearnZillion</title>
+      
+      <!-- injected -->
+      <link rel="stylesheet" media="all" href="../res/style.css">
+      <script src="../res/analytics.js" type="text/javascript"></script>
+      <script src="../cordova.js" type="text/javascript"></script>
+      
+    </head>
+   <body class="main" onload="initializeAnalytics()">
+      <header id="header">
+         <div class="logo logo--customer">
+            <a href="main.html">
+               <img src="../res/logo-mark-f53fc050d60ad2bafa7798895911e9a862bbcb9ca1abd6ee4b9fc9e594bbfb1e.svg" alt="Logo mark">
+               <div class="logo__text">
+                  <img src="../res/logo-type-88feed4fd78955d51767407d53a39e77193c775891e3ce83e4f2514388dd86ec.svg" alt="Logo type">
+                  <span>for Migo</span>
+               </div>
+            </a>
+         </div>
+         <span>
+         </span>
+         <nav class="header__navigation">
+            <span class="section hide-for-large-up">Explore</span>
+          </nav>
+            <a href="../index.hmtl">Home</a>
+         <nav class="header__user-navigation">
+            
+         </nav>
+      </header>
+      <main>
+         <div id="resource">

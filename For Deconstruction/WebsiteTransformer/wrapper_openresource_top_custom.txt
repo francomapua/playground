@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Open Up Resources</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../res/content.css">  
+  <link rel="stylesheet" media="screen" href="../res/css(1)">
+  <link rel="stylesheet" media="screen" href="../res/nav_global.css">
+  <script src="../res/analytics.js" type="text/javascript"></script>
+  <script src="../cordova.js" type="text/javascript"></script>
+  <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            skipStartupTypeset:     false,
+            showProcessingMessages: false,
+            showMathMenu:           false,
+            menuSettings:           {
+              inTabOrder:             false,
+            },
+            messageStyle:           'none',
+            undefinedCharError: false,
+            displayErrors: false,
+            displayMessages: false,
+            NativeMML: {
+              scale: 100
+            },
+            "HTML-CSS": {
+              scale: 110,
+              preferredFont: 'STIX-Web',
+              matchFontHeight: false,
+              availableFonts: ['TeX', 'STIX-Web'],
+              webFont: 'STIX-Web',
+              imageFont: null
+            },
+            SVG: {
+              scale: 110,
+              font: 'STIX-Web',
+              blacker: 0,
+              undefinedFamily: 'STIXGeneral, "Times New Roman", serif'
+            },
+            jax: [
+              'input/TeX',
+              'output/HTML-CSS'
+            ],
+            extensions: [
+              "tex2jax.js"
+            ],
+            tex2jax: {
+              inlineMath: [
+              ['$', '$'],
+                ['\\(', '\\)']
+              ],
+              displayMath: [
+                ['$$', '$$'],
+                ['\\[', '\\]']
+              ],
+              processEscapes: true
+            },
+            TeX: {
+              extensions: [
+                "AMSmath.js",
+                "AMSsymbols.js",
+                "noErrors.js",
+                "noUndefined.js"
+              ],
+              Macros: {
+                boldcdot: [
+                  '\\mathbin{\\raise -.1em\\Large\\cdot}'
+                ],
+                boxvoid: [
+                  '\\vcenter{{\\Large\\Box_{\\!\\!}}}'
+                ]
+              }
+            }
+          });
+    </script>
+    <script type="text/javascript" async src="../res/MathJax/MathJax.js">
+    </script>
+</head>
+
+<body class="teachers nojs unit-lesson unit-1 two-col" onload="initializeAnalytics()">
+  <a class="is--invisible is--focusable" href="../index.html">
+    Skip to Content
+  </a>
+
+  <div id="top"></div>
+  <section>
+    
+    <header class="c-nav-global">
+      <div class="c-nav-global__wrapper">
+        <a class=".c-nav-global__logolink" title="Open Up Resources Home" href="../index.html">
+          <img class="c-nav-global__logoimg" alt="Open Up Resources Logo" src="../res/our-logo.svg">
+        </a>
+      </div>
+    </header>
+
+
+    <header class="math-header" role="banner">
+      <div class="course-nav-container">
+        <div class="branding-wrapper">
+          <a class="course-title" href="../index.html">
+            <span class="grade">Grade 6</span>
+            <span class="subject">Math</span>
+		  </a>
+		  <a class="course-title">
+            <span class="grade">></span>
+          </a>
+          <a class="course-title" href="./6-1.html">
+            <span class="subject">1st Quarter</span>
+		  </a>
+		  <a class="course-title">
+            <span class="grade">></span>
+          </a>
+          <a class="course-title" href="./6-1-1.html">
+            <span class="subject">Lesson 1</span>
+          </a>
+        </div>
+
+      </div>
+
+    </header>
+
+    <main class="container" id="main">
